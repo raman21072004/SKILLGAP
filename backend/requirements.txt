@@ -1,0 +1,18 @@
+# Core backend + classical NLP (required). Python 3.11 or 3.12 recommended.
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+pydantic>=2.7,<3
+pydantic-settings>=2.3
+sqlalchemy>=2.0.30,<2.1
+alembic>=1.13
+psycopg[binary]>=3.1        # PostgreSQL driver (primary database)
+pyjwt>=2.8                  # JWT session tokens
+python-multipart>=0.0.9     # file uploads
+pymupdf>=1.24               # PDF text extraction
+python-docx>=1.1            # DOCX text extraction
+nltk>=3.8                   # tokenisation, stop words, Porter stemmer, WordNet lemmatizer
+scikit-learn>=1.5           # Bag of Words, TF-IDF, PCA, t-SNE
+numpy>=1.26
+pandas>=2.1                 # evaluation tables / CSV export
+gensim>=4.3.3               # Word2Vec (CBOW/Skip-Gram) and GloVe loading
+matplotlib>=3.8             # evaluation report charts

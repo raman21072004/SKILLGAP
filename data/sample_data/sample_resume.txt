@@ -1,0 +1,34 @@
+Aarav Sharma
+aarav.sharma@example.com | +91 98765 43210 | github.com/aarav-example
+
+SUMMARY
+Final-year B.Tech CSE (AI & ML) student interested in applied machine learning and backend development.
+
+EDUCATION
+B.Tech in Computer Science and Engineering (AI & ML), Example University, 2022-2026. CGPA 8.4/10.
+Coursework: Data Structures, Algorithms, DBMS, Operating Systems, Computer Networks, Natural Language Processing.
+
+EXPERIENCE
+Machine Learning Intern, Example Analytics Pvt. Ltd. (May 2025 - July 2025)
+- Built a customer churn prediction model with scikit-learn and pandas, improving recall by 12% over the baseline.
+- Developed REST APIs in Flask to serve model predictions to an internal dashboard.
+- Wrote SQL queries on a MySQL database to prepare weekly training datasets.
+
+PROJECTS
+Movie Review Sentiment Classifier
+- Trained an LSTM model in PyTorch to classify movie reviews as positive or negative; reported precision, recall and F1-score.
+- Compared TF-IDF features with word2vec embeddings for text representation.
+Campus Event Portal
+- Built a web app with React and Node.js; used Git and GitHub for version control.
+- Implemented JWT authentication and wrote unit tests with Jest.
+Library Management System
+- Designed an object-oriented console application in Java with file persistence.
+
+SKILLS
+Languages: Python, Java, C++, JavaScript, SQL
+Libraries: NumPy, pandas, scikit-learn, PyTorch, NLTK, Matplotlib
+Tools: Git, Linux, Jupyter, Docker
+Soft skills: Teamwork, Communication
+
+CERTIFICATIONS
+Example Online Course: Introduction to Deep Learning (2024)

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* SkillGap-NLP design tokens.
+   The verdict colours carry meaning everywhere in the app:
+   shown (pine) / verify (amber) / related (slate-violet) / not shown (brick). */
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Manrope", ui-sans-serif, sans-serif;
+
+  --color-paper: #f5f7f6;
+  --color-surface: #ffffff;
+  --color-ink: #16201d;
+  --color-muted: #5b6b66;
+  --color-line: #dde4e1;
+  --color-pine: #13624f;
+  --color-pine-dark: #0d4a3b;
+  --color-pine-soft: #e2efe9;
+
+  --color-shown: #13624f;
+  --color-verify: #c98a1b;
+  --color-verify-soft: #fbf1dc;
+  --color-related: #5d5f9e;
+  --color-related-soft: #ecedf7;
+  --color-missing: #b23a2e;
+  --color-missing-soft: #f8e6e3;
+}
+
+@layer base {
+  html { background: var(--color-paper); color: var(--color-ink); }
+  body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+  h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.015em; }
+  :focus-visible { outline: 2px solid var(--color-pine); outline-offset: 2px; border-radius: 4px; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+mark.evidence { background: var(--color-pine-soft); color: inherit; border-bottom: 2px solid var(--color-pine); padding: 0 1px; }
+mark.evidence-active { background: #ffe9b8; border-bottom-color: var(--color-verify); }

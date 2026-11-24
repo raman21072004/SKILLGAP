@@ -1,0 +1,1874 @@
+{
+ "version": "1.0",
+ "description": "SkillGap-NLP skill taxonomy. Each entry has a canonical name, category, aliases (case-insensitive unless listed under case_sensitive_aliases), related skills (NOT equivalent), optional prerequisites, a typical learning level and a short description used to build semantic queries.",
+ "categories": [
+  "Programming Languages",
+  "Data Structures and Algorithms",
+  "Software Development",
+  "Databases",
+  "Web Development",
+  "Artificial Intelligence",
+  "Machine Learning",
+  "Deep Learning",
+  "Natural Language Processing",
+  "Computer Vision",
+  "Data Engineering",
+  "Data Analysis",
+  "Cloud Computing",
+  "DevOps",
+  "Cybersecurity",
+  "Software Testing",
+  "Tools and Frameworks",
+  "Professional Skills"
+ ],
+ "skills": [
+  {
+   "canonical": "Python",
+   "category": "Programming Languages",
+   "aliases": [
+    "python",
+    "python3",
+    "python 3"
+   ],
+   "related": [
+    "Java",
+    "R",
+    "JavaScript"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "general-purpose programming language used for scripting, backend development and data science",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Java",
+   "category": "Programming Languages",
+   "aliases": [
+    "java",
+    "core java",
+    "java 8",
+    "java 17"
+   ],
+   "related": [
+    "Python",
+    "C++",
+    "Kotlin",
+    "C#"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "object-oriented programming language used for enterprise and Android applications",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "C++",
+   "category": "Programming Languages",
+   "aliases": [
+    "c++",
+    "cpp"
+   ],
+   "related": [
+    "C",
+    "Java",
+    "Rust"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "systems programming language with manual memory management and templates",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "C",
+   "category": "Programming Languages",
+   "aliases": [],
+   "case_sensitive_aliases": [
+    "C"
+   ],
+   "related": [
+    "C++",
+    "Rust"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "low-level procedural programming language"
+  },
+  {
+   "canonical": "C#",
+   "category": "Programming Languages",
+   "aliases": [
+    "c#",
+    "csharp",
+    "c sharp"
+   ],
+   "related": [
+    "Java",
+    ".NET"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "object-oriented language for the .NET platform",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "JavaScript",
+   "category": "Programming Languages",
+   "aliases": [
+    "javascript",
+    "js",
+    "es6",
+    "ecmascript"
+   ],
+   "related": [
+    "TypeScript",
+    "Python"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "programming language of the web browser and Node.js",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "TypeScript",
+   "category": "Programming Languages",
+   "aliases": [
+    "typescript",
+    "ts"
+   ],
+   "related": [
+    "JavaScript"
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ],
+   "level": "intermediate",
+   "description": "statically typed superset of JavaScript",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Go",
+   "category": "Programming Languages",
+   "aliases": [
+    "golang"
+   ],
+   "case_sensitive_aliases": [
+    "Go"
+   ],
+   "related": [
+    "Rust",
+    "Java"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "compiled concurrent programming language from Google"
+  },
+  {
+   "canonical": "Rust",
+   "category": "Programming Languages",
+   "aliases": [
+    "rust"
+   ],
+   "related": [
+    "C++",
+    "Go"
+   ],
+   "prerequisites": [],
+   "level": "advanced",
+   "description": "memory-safe systems programming language",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Kotlin",
+   "category": "Programming Languages",
+   "aliases": [
+    "kotlin"
+   ],
+   "related": [
+    "Java"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "modern JVM language used for Android development",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "R",
+   "category": "Programming Languages",
+   "aliases": [
+    "r programming",
+    "rstudio"
+   ],
+   "case_sensitive_aliases": [
+    "R"
+   ],
+   "related": [
+    "Python"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "statistical computing language"
+  },
+  {
+   "canonical": "SQL",
+   "category": "Databases",
+   "aliases": [
+    "sql",
+    "structured query language",
+    "t-sql",
+    "pl/sql"
+   ],
+   "related": [
+    "PostgreSQL",
+    "MySQL"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "query language for relational databases including joins and aggregations",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Bash",
+   "category": "Programming Languages",
+   "aliases": [
+    "bash",
+    "shell scripting",
+    "shell script"
+   ],
+   "related": [
+    "Linux"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "Unix shell scripting",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Data Structures",
+   "category": "Data Structures and Algorithms",
+   "aliases": [
+    "data structures",
+    "data structure"
+   ],
+   "related": [
+    "Algorithms"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "arrays, linked lists, stacks, queues, trees, graphs and hash tables",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Algorithms",
+   "category": "Data Structures and Algorithms",
+   "aliases": [
+    "algorithms",
+    "algorithm design",
+    "dsa",
+    "competitive programming"
+   ],
+   "related": [
+    "Data Structures"
+   ],
+   "prerequisites": [
+    "Data Structures"
+   ],
+   "level": "intermediate",
+   "description": "sorting, searching, dynamic programming, graph algorithms and complexity analysis",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Object-Oriented Programming",
+   "category": "Software Development",
+   "aliases": [
+    "object-oriented programming",
+    "object oriented programming",
+    "oop",
+    "oops"
+   ],
+   "related": [
+    "Design Patterns"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "classes, inheritance, encapsulation and polymorphism",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Design Patterns",
+   "category": "Software Development",
+   "aliases": [
+    "design patterns",
+    "solid principles"
+   ],
+   "related": [
+    "Object-Oriented Programming",
+    "System Design"
+   ],
+   "prerequisites": [
+    "Object-Oriented Programming"
+   ],
+   "level": "intermediate",
+   "description": "reusable software design solutions",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "System Design",
+   "category": "Software Development",
+   "aliases": [
+    "system design",
+    "software architecture",
+    "microservices",
+    "distributed systems"
+   ],
+   "related": [
+    "Design Patterns"
+   ],
+   "prerequisites": [],
+   "level": "advanced",
+   "description": "designing scalable software architectures and distributed systems",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "REST APIs",
+   "category": "Software Development",
+   "aliases": [
+    "rest api",
+    "rest apis",
+    "restful",
+    "restful api",
+    "restful apis",
+    "api development"
+   ],
+   "related": [
+    "GraphQL",
+    "FastAPI",
+    "Node.js"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "designing and building HTTP REST web services",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "GraphQL",
+   "category": "Software Development",
+   "aliases": [
+    "graphql"
+   ],
+   "related": [
+    "REST APIs"
+   ],
+   "prerequisites": [
+    "REST APIs"
+   ],
+   "level": "intermediate",
+   "description": "query language for APIs",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Agile",
+   "category": "Software Development",
+   "aliases": [
+    "agile",
+    "scrum",
+    "kanban"
+   ],
+   "related": [],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "iterative software development methodology",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "PostgreSQL",
+   "category": "Databases",
+   "aliases": [
+    "postgresql",
+    "postgres",
+    "psql"
+   ],
+   "related": [
+    "MySQL",
+    "SQL"
+   ],
+   "prerequisites": [
+    "SQL"
+   ],
+   "level": "intermediate",
+   "description": "open-source relational database",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "MySQL",
+   "category": "Databases",
+   "aliases": [
+    "mysql",
+    "mariadb"
+   ],
+   "related": [
+    "PostgreSQL",
+    "SQL"
+   ],
+   "prerequisites": [
+    "SQL"
+   ],
+   "level": "beginner",
+   "description": "open-source relational database",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "MongoDB",
+   "category": "Databases",
+   "aliases": [
+    "mongodb",
+    "mongo"
+   ],
+   "related": [
+    "NoSQL"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "document-oriented NoSQL database",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "NoSQL",
+   "category": "Databases",
+   "aliases": [
+    "nosql",
+    "cassandra",
+    "dynamodb"
+   ],
+   "related": [
+    "MongoDB",
+    "Redis"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "non-relational databases",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Redis",
+   "category": "Databases",
+   "aliases": [
+    "redis"
+   ],
+   "related": [
+    "NoSQL"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "in-memory key-value store used for caching",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Database Design",
+   "category": "Databases",
+   "aliases": [
+    "database design",
+    "data modeling",
+    "data modelling",
+    "normalization",
+    "er diagram",
+    "dbms"
+   ],
+   "related": [
+    "SQL"
+   ],
+   "prerequisites": [
+    "SQL"
+   ],
+   "level": "intermediate",
+   "description": "relational schema design, normalization and entity relationships",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "HTML",
+   "category": "Web Development",
+   "aliases": [
+    "html",
+    "html5"
+   ],
+   "related": [
+    "CSS"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "markup language for web pages",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "CSS",
+   "category": "Web Development",
+   "aliases": [
+    "css",
+    "css3",
+    "sass",
+    "scss"
+   ],
+   "related": [
+    "HTML",
+    "Tailwind CSS"
+   ],
+   "prerequisites": [
+    "HTML"
+   ],
+   "level": "beginner",
+   "description": "styling language for web pages",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Tailwind CSS",
+   "category": "Web Development",
+   "aliases": [
+    "tailwind",
+    "tailwind css",
+    "tailwindcss"
+   ],
+   "related": [
+    "CSS"
+   ],
+   "prerequisites": [
+    "CSS"
+   ],
+   "level": "beginner",
+   "description": "utility-first CSS framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "React",
+   "category": "Web Development",
+   "aliases": [
+    "react",
+    "react.js",
+    "reactjs",
+    "react js"
+   ],
+   "related": [
+    "Angular",
+    "Vue.js",
+    "Next.js"
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ],
+   "level": "intermediate",
+   "description": "JavaScript library for building component-based user interfaces",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Angular",
+   "category": "Web Development",
+   "aliases": [
+    "angular",
+    "angularjs"
+   ],
+   "related": [
+    "React",
+    "Vue.js"
+   ],
+   "prerequisites": [
+    "TypeScript"
+   ],
+   "level": "intermediate",
+   "description": "TypeScript web application framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Vue.js",
+   "category": "Web Development",
+   "aliases": [
+    "vue",
+    "vue.js",
+    "vuejs"
+   ],
+   "related": [
+    "React",
+    "Angular"
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ],
+   "level": "intermediate",
+   "description": "progressive JavaScript UI framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Next.js",
+   "category": "Web Development",
+   "aliases": [
+    "next.js",
+    "nextjs"
+   ],
+   "related": [
+    "React"
+   ],
+   "prerequisites": [
+    "React"
+   ],
+   "level": "intermediate",
+   "description": "React framework with server-side rendering",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Node.js",
+   "category": "Web Development",
+   "aliases": [
+    "node.js",
+    "nodejs",
+    "node js"
+   ],
+   "related": [
+    "Express.js",
+    "REST APIs"
+   ],
+   "prerequisites": [
+    "JavaScript"
+   ],
+   "level": "intermediate",
+   "description": "JavaScript runtime for server-side applications",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Express.js",
+   "category": "Web Development",
+   "aliases": [
+    "express.js",
+    "expressjs"
+   ],
+   "related": [
+    "Node.js"
+   ],
+   "prerequisites": [
+    "Node.js"
+   ],
+   "level": "intermediate",
+   "description": "minimal Node.js web framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Django",
+   "category": "Web Development",
+   "aliases": [
+    "django",
+    "django rest framework",
+    "drf"
+   ],
+   "related": [
+    "Flask",
+    "FastAPI"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "batteries-included Python web framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Flask",
+   "category": "Web Development",
+   "aliases": [
+    "flask"
+   ],
+   "related": [
+    "Django",
+    "FastAPI"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "beginner",
+   "description": "lightweight Python web framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "FastAPI",
+   "category": "Web Development",
+   "aliases": [
+    "fastapi",
+    "fast api"
+   ],
+   "related": [
+    "Flask",
+    "Django",
+    "REST APIs"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "modern asynchronous Python API framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Spring Boot",
+   "category": "Web Development",
+   "aliases": [
+    "spring boot",
+    "springboot",
+    "spring framework"
+   ],
+   "related": [
+    "Java"
+   ],
+   "prerequisites": [
+    "Java"
+   ],
+   "level": "intermediate",
+   "description": "Java framework for web services",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": ".NET",
+   "category": "Web Development",
+   "aliases": [
+    ".net",
+    "asp.net",
+    "dotnet",
+    ".net core"
+   ],
+   "related": [
+    "C#"
+   ],
+   "prerequisites": [
+    "C#"
+   ],
+   "level": "intermediate",
+   "description": "Microsoft application framework",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Artificial Intelligence",
+   "category": "Artificial Intelligence",
+   "aliases": [
+    "artificial intelligence",
+    "ai"
+   ],
+   "case_sensitive_aliases": [],
+   "related": [
+    "Machine Learning"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "building systems that perform tasks requiring intelligence"
+  },
+  {
+   "canonical": "Generative AI",
+   "category": "Artificial Intelligence",
+   "aliases": [
+    "generative ai",
+    "genai",
+    "large language models",
+    "llm",
+    "llms",
+    "prompt engineering",
+    "rag",
+    "retrieval augmented generation"
+   ],
+   "related": [
+    "Transformers",
+    "Natural Language Processing"
+   ],
+   "prerequisites": [
+    "Deep Learning"
+   ],
+   "level": "advanced",
+   "description": "large language models, prompting and retrieval augmented generation",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Machine Learning",
+   "category": "Machine Learning",
+   "aliases": [
+    "machine learning",
+    "ml",
+    "predictive modeling",
+    "predictive modelling"
+   ],
+   "related": [
+    "Deep Learning",
+    "Statistics",
+    "Data Analysis"
+   ],
+   "prerequisites": [
+    "Python",
+    "Statistics",
+    "Linear Algebra"
+   ],
+   "level": "intermediate",
+   "description": "training predictive models such as regression, classification and clustering from data",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Supervised Learning",
+   "category": "Machine Learning",
+   "aliases": [
+    "supervised learning",
+    "classification",
+    "regression",
+    "random forest",
+    "decision trees",
+    "xgboost",
+    "svm",
+    "logistic regression"
+   ],
+   "related": [
+    "Machine Learning"
+   ],
+   "prerequisites": [
+    "Machine Learning"
+   ],
+   "level": "intermediate",
+   "description": "learning models from labelled examples",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Unsupervised Learning",
+   "category": "Machine Learning",
+   "aliases": [
+    "unsupervised learning",
+    "clustering",
+    "k-means",
+    "kmeans",
+    "dimensionality reduction"
+   ],
+   "related": [
+    "Machine Learning"
+   ],
+   "prerequisites": [
+    "Machine Learning"
+   ],
+   "level": "intermediate",
+   "description": "finding structure in unlabelled data",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "scikit-learn",
+   "category": "Machine Learning",
+   "aliases": [
+    "scikit-learn",
+    "sklearn",
+    "scikit learn"
+   ],
+   "related": [
+    "Machine Learning",
+    "pandas"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "Python machine learning library",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Model Evaluation",
+   "category": "Machine Learning",
+   "aliases": [
+    "model evaluation",
+    "cross-validation",
+    "cross validation",
+    "hyperparameter tuning",
+    "precision and recall",
+    "f1-score",
+    "f1 score"
+   ],
+   "related": [
+    "Machine Learning"
+   ],
+   "prerequisites": [
+    "Machine Learning"
+   ],
+   "level": "intermediate",
+   "description": "validating models with metrics, cross-validation and tuning",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "MLOps",
+   "category": "Machine Learning",
+   "aliases": [
+    "mlops",
+    "mlflow",
+    "model deployment",
+    "model serving"
+   ],
+   "related": [
+    "CI/CD",
+    "Machine Learning"
+   ],
+   "prerequisites": [
+    "Machine Learning",
+    "Docker"
+   ],
+   "level": "advanced",
+   "description": "deploying, monitoring and versioning machine learning models",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Deep Learning",
+   "category": "Deep Learning",
+   "aliases": [
+    "deep learning",
+    "dl",
+    "neural networks",
+    "neural network",
+    "ann"
+   ],
+   "related": [
+    "Machine Learning",
+    "PyTorch",
+    "TensorFlow"
+   ],
+   "prerequisites": [
+    "Machine Learning"
+   ],
+   "level": "advanced",
+   "description": "training multilayer neural networks with backpropagation",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "PyTorch",
+   "category": "Deep Learning",
+   "aliases": [
+    "pytorch",
+    "torch"
+   ],
+   "related": [
+    "TensorFlow",
+    "Keras"
+   ],
+   "prerequisites": [
+    "Python",
+    "Deep Learning"
+   ],
+   "level": "intermediate",
+   "description": "deep learning framework with dynamic computation graphs",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "TensorFlow",
+   "category": "Deep Learning",
+   "aliases": [
+    "tensorflow",
+    "tf2"
+   ],
+   "related": [
+    "PyTorch",
+    "Keras"
+   ],
+   "prerequisites": [
+    "Python",
+    "Deep Learning"
+   ],
+   "level": "intermediate",
+   "description": "deep learning framework from Google",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Keras",
+   "category": "Deep Learning",
+   "aliases": [
+    "keras"
+   ],
+   "related": [
+    "TensorFlow",
+    "PyTorch"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "beginner",
+   "description": "high-level neural network API",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "CNN",
+   "category": "Deep Learning",
+   "aliases": [
+    "cnn",
+    "cnns",
+    "convolutional neural network",
+    "convolutional neural networks"
+   ],
+   "related": [
+    "Computer Vision",
+    "Deep Learning"
+   ],
+   "prerequisites": [
+    "Deep Learning"
+   ],
+   "level": "advanced",
+   "description": "convolutional neural networks for images",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "RNN",
+   "category": "Deep Learning",
+   "aliases": [
+    "rnn",
+    "rnns",
+    "lstm",
+    "lstms",
+    "gru",
+    "recurrent neural network",
+    "recurrent neural networks"
+   ],
+   "related": [
+    "Natural Language Processing",
+    "Transformers"
+   ],
+   "prerequisites": [
+    "Deep Learning"
+   ],
+   "level": "advanced",
+   "description": "recurrent neural networks for sequence modelling",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Transformers",
+   "category": "Deep Learning",
+   "aliases": [
+    "transformers",
+    "transformer models",
+    "bert",
+    "gpt",
+    "attention mechanism",
+    "hugging face",
+    "huggingface"
+   ],
+   "related": [
+    "Natural Language Processing",
+    "RNN",
+    "Generative AI"
+   ],
+   "prerequisites": [
+    "Deep Learning"
+   ],
+   "level": "advanced",
+   "description": "attention-based neural architectures such as BERT and GPT",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Natural Language Processing",
+   "category": "Natural Language Processing",
+   "aliases": [
+    "natural language processing",
+    "nlp",
+    "text mining",
+    "text analytics",
+    "computational linguistics"
+   ],
+   "related": [
+    "Transformers",
+    "Machine Learning",
+    "Word Embeddings"
+   ],
+   "prerequisites": [
+    "Python",
+    "Machine Learning"
+   ],
+   "level": "advanced",
+   "description": "processing and understanding human language text with computational methods",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Word Embeddings",
+   "category": "Natural Language Processing",
+   "aliases": [
+    "word embeddings",
+    "word embedding",
+    "word2vec",
+    "glove",
+    "fasttext",
+    "sentence embeddings"
+   ],
+   "related": [
+    "Natural Language Processing"
+   ],
+   "prerequisites": [
+    "Natural Language Processing"
+   ],
+   "level": "advanced",
+   "description": "dense vector representations of words and sentences",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Text Classification",
+   "category": "Natural Language Processing",
+   "aliases": [
+    "text classification",
+    "sentiment analysis",
+    "document classification",
+    "spam detection"
+   ],
+   "related": [
+    "Natural Language Processing",
+    "Supervised Learning"
+   ],
+   "prerequisites": [
+    "Natural Language Processing"
+   ],
+   "level": "intermediate",
+   "description": "assigning labels such as sentiment to text documents",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Named Entity Recognition",
+   "category": "Natural Language Processing",
+   "aliases": [
+    "named entity recognition",
+    "ner",
+    "information extraction"
+   ],
+   "related": [
+    "Natural Language Processing"
+   ],
+   "prerequisites": [
+    "Natural Language Processing"
+   ],
+   "level": "advanced",
+   "description": "extracting entities such as names and organisations from text",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "spaCy",
+   "category": "Natural Language Processing",
+   "aliases": [
+    "spacy"
+   ],
+   "related": [
+    "NLTK"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "industrial NLP library",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "NLTK",
+   "category": "Natural Language Processing",
+   "aliases": [
+    "nltk",
+    "natural language toolkit"
+   ],
+   "related": [
+    "spaCy"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "beginner",
+   "description": "Python natural language toolkit",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Computer Vision",
+   "category": "Computer Vision",
+   "aliases": [
+    "computer vision",
+    "image processing",
+    "object detection",
+    "image classification",
+    "image segmentation",
+    "yolo"
+   ],
+   "related": [
+    "CNN",
+    "OpenCV"
+   ],
+   "prerequisites": [
+    "Deep Learning"
+   ],
+   "level": "advanced",
+   "description": "analysing images and video with algorithms and neural networks",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "OpenCV",
+   "category": "Computer Vision",
+   "aliases": [
+    "opencv",
+    "cv2"
+   ],
+   "related": [
+    "Computer Vision"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "computer vision library",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Data Pipelines",
+   "category": "Data Engineering",
+   "aliases": [
+    "data pipelines",
+    "data pipeline",
+    "etl",
+    "elt",
+    "data ingestion"
+   ],
+   "related": [
+    "Apache Spark",
+    "Apache Airflow"
+   ],
+   "prerequisites": [
+    "SQL",
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "extract, transform and load workflows for moving data",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Apache Spark",
+   "category": "Data Engineering",
+   "aliases": [
+    "apache spark",
+    "spark",
+    "pyspark"
+   ],
+   "related": [
+    "Hadoop",
+    "Data Pipelines"
+   ],
+   "prerequisites": [
+    "Python",
+    "SQL"
+   ],
+   "level": "advanced",
+   "description": "distributed data processing engine",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Hadoop",
+   "category": "Data Engineering",
+   "aliases": [
+    "hadoop",
+    "hdfs",
+    "mapreduce",
+    "hive"
+   ],
+   "related": [
+    "Apache Spark"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "distributed storage and batch processing",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Apache Kafka",
+   "category": "Data Engineering",
+   "aliases": [
+    "kafka",
+    "apache kafka"
+   ],
+   "related": [
+    "Data Pipelines"
+   ],
+   "prerequisites": [],
+   "level": "advanced",
+   "description": "distributed event streaming platform",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Apache Airflow",
+   "category": "Data Engineering",
+   "aliases": [
+    "airflow",
+    "apache airflow"
+   ],
+   "related": [
+    "Data Pipelines"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "intermediate",
+   "description": "workflow orchestration platform",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Data Warehousing",
+   "category": "Data Engineering",
+   "aliases": [
+    "data warehouse",
+    "data warehousing",
+    "snowflake",
+    "bigquery",
+    "redshift"
+   ],
+   "related": [
+    "SQL",
+    "Data Pipelines"
+   ],
+   "prerequisites": [
+    "SQL"
+   ],
+   "level": "intermediate",
+   "description": "analytical data storage",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "pandas",
+   "category": "Data Analysis",
+   "aliases": [
+    "pandas"
+   ],
+   "related": [
+    "NumPy",
+    "Data Analysis"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "beginner",
+   "description": "Python data frame library for data manipulation",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "NumPy",
+   "category": "Data Analysis",
+   "aliases": [
+    "numpy"
+   ],
+   "related": [
+    "pandas"
+   ],
+   "prerequisites": [
+    "Python"
+   ],
+   "level": "beginner",
+   "description": "numerical computing with arrays",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Data Analysis",
+   "category": "Data Analysis",
+   "aliases": [
+    "data analysis",
+    "data analytics",
+    "exploratory data analysis",
+    "eda",
+    "data cleaning",
+    "data wrangling"
+   ],
+   "related": [
+    "pandas",
+    "Statistics",
+    "Data Visualization"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "cleaning, exploring and summarising datasets",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Data Visualization",
+   "category": "Data Analysis",
+   "aliases": [
+    "data visualization",
+    "data visualisation",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "tableau",
+    "power bi",
+    "powerbi",
+    "dashboards"
+   ],
+   "related": [
+    "Data Analysis"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "communicating data with charts and dashboards",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Statistics",
+   "category": "Data Analysis",
+   "aliases": [
+    "statistics",
+    "statistical analysis",
+    "probability",
+    "hypothesis testing",
+    "a/b testing"
+   ],
+   "related": [
+    "Machine Learning",
+    "Data Analysis"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "probability, distributions, inference and hypothesis testing",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Linear Algebra",
+   "category": "Data Analysis",
+   "aliases": [
+    "linear algebra",
+    "matrix operations"
+   ],
+   "related": [
+    "Statistics"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "vectors, matrices and decompositions used in machine learning",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Excel",
+   "category": "Data Analysis",
+   "aliases": [
+    "ms excel",
+    "microsoft excel",
+    "spreadsheets"
+   ],
+   "related": [
+    "Data Analysis"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "spreadsheet analysis",
+   "case_sensitive_aliases": [
+    "Excel"
+   ]
+  },
+  {
+   "canonical": "Cloud Computing",
+   "category": "Cloud Computing",
+   "aliases": [
+    "cloud computing",
+    "cloud",
+    "cloud services",
+    "cloud platforms"
+   ],
+   "related": [
+    "AWS",
+    "Microsoft Azure",
+    "Google Cloud"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "deploying and operating applications on cloud infrastructure",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "AWS",
+   "category": "Cloud Computing",
+   "aliases": [
+    "aws",
+    "amazon web services",
+    "ec2",
+    "s3",
+    "aws lambda",
+    "sagemaker"
+   ],
+   "related": [
+    "Microsoft Azure",
+    "Google Cloud",
+    "Cloud Computing"
+   ],
+   "prerequisites": [
+    "Cloud Computing"
+   ],
+   "level": "intermediate",
+   "description": "Amazon Web Services cloud platform",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Microsoft Azure",
+   "category": "Cloud Computing",
+   "aliases": [
+    "azure",
+    "microsoft azure"
+   ],
+   "related": [
+    "AWS",
+    "Google Cloud",
+    "Cloud Computing"
+   ],
+   "prerequisites": [
+    "Cloud Computing"
+   ],
+   "level": "intermediate",
+   "description": "Microsoft cloud platform",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Google Cloud",
+   "category": "Cloud Computing",
+   "aliases": [
+    "google cloud",
+    "gcp",
+    "google cloud platform"
+   ],
+   "related": [
+    "AWS",
+    "Microsoft Azure",
+    "Cloud Computing"
+   ],
+   "prerequisites": [
+    "Cloud Computing"
+   ],
+   "level": "intermediate",
+   "description": "Google cloud platform",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Serverless",
+   "category": "Cloud Computing",
+   "aliases": [
+    "serverless",
+    "cloud functions"
+   ],
+   "related": [
+    "AWS"
+   ],
+   "prerequisites": [
+    "Cloud Computing"
+   ],
+   "level": "intermediate",
+   "description": "function-as-a-service deployments",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Docker",
+   "category": "DevOps",
+   "aliases": [
+    "docker",
+    "containers",
+    "containerization",
+    "docker compose",
+    "docker-compose"
+   ],
+   "related": [
+    "Kubernetes"
+   ],
+   "prerequisites": [
+    "Linux"
+   ],
+   "level": "intermediate",
+   "description": "packaging applications into containers",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Kubernetes",
+   "category": "DevOps",
+   "aliases": [
+    "kubernetes",
+    "k8s"
+   ],
+   "related": [
+    "Docker"
+   ],
+   "prerequisites": [
+    "Docker"
+   ],
+   "level": "advanced",
+   "description": "container orchestration",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "CI/CD",
+   "category": "DevOps",
+   "aliases": [
+    "ci/cd",
+    "cicd",
+    "continuous integration",
+    "continuous deployment",
+    "github actions",
+    "jenkins",
+    "gitlab ci"
+   ],
+   "related": [
+    "Git",
+    "Docker"
+   ],
+   "prerequisites": [
+    "Git"
+   ],
+   "level": "intermediate",
+   "description": "automated build, test and deployment pipelines",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Linux",
+   "category": "DevOps",
+   "aliases": [
+    "linux",
+    "unix",
+    "ubuntu"
+   ],
+   "related": [
+    "Bash"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "Linux operating system and command line",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Terraform",
+   "category": "DevOps",
+   "aliases": [
+    "terraform",
+    "infrastructure as code",
+    "iac"
+   ],
+   "related": [
+    "Cloud Computing"
+   ],
+   "prerequisites": [
+    "Cloud Computing"
+   ],
+   "level": "advanced",
+   "description": "infrastructure as code",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Cybersecurity",
+   "category": "Cybersecurity",
+   "aliases": [
+    "cybersecurity",
+    "cyber security",
+    "information security",
+    "network security",
+    "penetration testing",
+    "owasp"
+   ],
+   "related": [
+    "Authentication"
+   ],
+   "prerequisites": [
+    "Computer Networks"
+   ],
+   "level": "intermediate",
+   "description": "protecting systems against attacks and vulnerabilities",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Authentication",
+   "category": "Cybersecurity",
+   "aliases": [
+    "authentication",
+    "authorization",
+    "oauth",
+    "oauth2",
+    "jwt",
+    "sso"
+   ],
+   "related": [
+    "Cybersecurity",
+    "REST APIs"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "verifying identity and permissions in applications",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Computer Networks",
+   "category": "Cybersecurity",
+   "aliases": [
+    "computer networks",
+    "networking",
+    "tcp/ip",
+    "http",
+    "dns"
+   ],
+   "related": [
+    "Cybersecurity"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "network protocols and architecture",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Software Testing",
+   "category": "Software Testing",
+   "aliases": [
+    "software testing",
+    "testing",
+    "qa",
+    "quality assurance",
+    "test automation"
+   ],
+   "related": [
+    "Unit Testing"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "verifying software behaviour through manual and automated tests",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Unit Testing",
+   "category": "Software Testing",
+   "aliases": [
+    "unit testing",
+    "unit tests",
+    "pytest",
+    "junit",
+    "jest",
+    "vitest",
+    "test-driven development",
+    "tdd"
+   ],
+   "related": [
+    "Software Testing"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "writing automated tests for individual units of code",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Selenium",
+   "category": "Software Testing",
+   "aliases": [
+    "selenium",
+    "cypress",
+    "playwright",
+    "end-to-end testing",
+    "e2e testing"
+   ],
+   "related": [
+    "Software Testing"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "browser automation and end-to-end testing",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Git",
+   "category": "Tools and Frameworks",
+   "aliases": [
+    "git",
+    "github",
+    "gitlab",
+    "bitbucket",
+    "version control"
+   ],
+   "related": [
+    "CI/CD"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "distributed version control",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Jupyter",
+   "category": "Tools and Frameworks",
+   "aliases": [
+    "jupyter",
+    "jupyter notebook",
+    "jupyter notebooks",
+    "google colab",
+    "colab"
+   ],
+   "related": [
+    "Python"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "interactive notebooks for data science",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Jira",
+   "category": "Tools and Frameworks",
+   "aliases": [
+    "jira",
+    "confluence"
+   ],
+   "related": [
+    "Agile"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "issue tracking and project management",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Communication",
+   "category": "Professional Skills",
+   "aliases": [
+    "communication",
+    "communication skills",
+    "written communication",
+    "verbal communication",
+    "presentation skills",
+    "technical writing"
+   ],
+   "related": [
+    "Teamwork"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "communicating clearly with technical and non-technical audiences",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Teamwork",
+   "category": "Professional Skills",
+   "aliases": [
+    "teamwork",
+    "team player",
+    "collaboration",
+    "cross-functional"
+   ],
+   "related": [
+    "Communication"
+   ],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "working effectively in teams",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Problem Solving",
+   "category": "Professional Skills",
+   "aliases": [
+    "problem solving",
+    "problem-solving",
+    "analytical skills",
+    "critical thinking"
+   ],
+   "related": [],
+   "prerequisites": [],
+   "level": "beginner",
+   "description": "analysing and solving complex problems",
+   "case_sensitive_aliases": []
+  },
+  {
+   "canonical": "Leadership",
+   "category": "Professional Skills",
+   "aliases": [
+    "leadership",
+    "mentoring",
+    "team lead",
+    "led a team"
+   ],
+   "related": [
+    "Teamwork"
+   ],
+   "prerequisites": [],
+   "level": "intermediate",
+   "description": "guiding and mentoring others",
+   "case_sensitive_aliases": []
+  }
+ ]
+}

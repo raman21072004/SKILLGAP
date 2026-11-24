@@ -1,0 +1,18 @@
+Junior NLP / Machine Learning Engineer
+
+About the role
+We are looking for a junior engineer to build natural language processing features for our hiring-analytics product.
+
+Requirements:
+- Strong programming skills in Python.
+- Hands-on experience with machine learning and deep learning using PyTorch or TensorFlow.
+- Experience with NLP techniques such as text classification, word embeddings and transformers (BERT).
+- Experience building REST APIs with FastAPI or Flask.
+- Good knowledge of SQL and PostgreSQL.
+- Experience with Docker and Git.
+- Good communication skills and ability to work in a team.
+
+Nice to have:
+- Experience with cloud platforms such as AWS.
+- Familiarity with Kubernetes and CI/CD pipelines.
+- Knowledge of MLOps practices.

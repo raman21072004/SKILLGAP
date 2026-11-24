@@ -1,0 +1,7 @@
+# Deep-learning extras for the semantic matching engine (strongly recommended).
+# Install CPU-only PyTorch first to avoid a multi-GB CUDA download:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+sentence-transformers>=3.0  # all-MiniLM-L6-v2 sentence embeddings
+transformers>=4.40          # Hugging Face model loading (used by sentence-transformers)
+spacy>=3.7                  # optional lemmatizer (en_core_web_sm) used when WordNet data is missing
